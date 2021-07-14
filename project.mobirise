@@ -49,9 +49,9 @@
     "site_lang": "pt-BR",
     "favicon": false,
     "mbrsiteDomain": "presentebebemax",
-    "cssOptimize": false,
-    "lazyLoad": false,
-    "lazyType": "nothing",
+    "cssOptimize": true,
+    "lazyLoad": true,
+    "lazyType": "blur",
     "robotsSwitcher": false,
     "sitemapSwitcher": false,
     "sitemapSwitcherAuto": false,
@@ -59,7 +59,9 @@
     "cookiesAlert": false,
     "gdpr": false,
     "uniqCompNum": 2,
-    "versionPublish": "5.3.10"
+    "versionPublish": "5.3.10",
+    "screenshot": "screenshot.png",
+    "global_header_custom": "<!-- Facebook Pixel Code -->\n<script>\n!function(f,b,e,v,n,t,s)\n{if(f.fbq)return;n=f.fbq=function(){n.callMethod?\nn.callMethod.apply(n,arguments):n.queue.push(arguments)};\nif(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';\nn.queue=[];t=b.createElement(e);t.async=!0;\nt.src=v;s=b.getElementsByTagName(e)[0];\ns.parentNode.insertBefore(t,s)}(window, document,'script',\n'https://connect.facebook.net/en_US/fbevents.js');\nfbq('init', '1039927219781339');\nfbq('track', 'PageView');\n</script>\n<noscript>&lt;img  height=\"1\" width=\"1\" style=\"display:none\" src=\"https://www.facebook.com/tr?id=1039927219781339&amp;amp;ev=PageView&amp;amp;noscript=1\"&gt;</noscript>\n<!-- End Facebook Pixel Code -->\n<!-- Global site tag (gtag.js) - Google Analytics -->\n<script async src=\"https://www.googletagmanager.com/gtag/js?id=UA-173083157-4\"></script>\n<script>\n  window.dataLayer = window.dataLayer || [];\n  function gtag(){dataLayer.push(arguments);}\n  gtag('js', new Date());\n\n  gtag('config', 'UA-173083157-4');\n</script>"
   },
   "pages": {
     "index.html": {
